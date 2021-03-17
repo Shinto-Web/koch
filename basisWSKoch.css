@@ -1,0 +1,140 @@
+/*---CSS RESET---*/
+* {                    /* Sternselektor (Universalselektor) wählt alle HTML-Elemente aus */
+    padding: 0;            /* Innenabstand */ 
+    margin: 0;             /* Außenabstand */
+    font-size: 100%;       /* Schriftgröße */
+    font-weight: normal;   /* Schriftdicke */
+}                      /* ==> alle Abstände auf Standard */
+
+ul,                    /* ungeordnete Liste */
+ol {                   /* geordnete Liste */
+    list-style: none;      /* kein Listenstil */
+}
+
+img,                   /* Bilder */
+a img {                /* Bilder verlinkt */
+    border: none;          /* kein Rahmen */
+}
+
+/*---Schrift und Größe---*/
+
+body {
+    background-color: #AA7755;
+    color: #ffffff;
+    text-align: center;
+}
+table, th, td {
+    border-collapse: separate;
+}
+h1 {
+    font-size: 180%;
+    color: "lightblue";
+    text-decoration: underline;
+}
+h2, h3 {
+    font-size: 130%;
+    color: #00ee00
+}
+.uberschrift {
+    text-align:center;
+    font-size:20pt;
+    color: blue;
+    font-style:italic;
+    width:400px;
+    padding:10px;
+    border:3px solid blue;
+    background-color: #ccccff;
+}
+
+#ueberschrift {
+    margin-left: 200px;
+    margin-right: 50px;
+    text-align: justify;
+}
+
+#anfangstext {
+    margin-left: 200px;
+    margin-right: 50px;
+    text-align: justify;
+}
+
+.liste {
+    width: 50%;
+    margin: 0;
+    padding: 0;
+}
+.liste li {
+    list-style: none;
+    margin: 5px 0 5px 10px;
+    padding: 5px;
+    border: 1px dashed #777777;
+    background-color: #f0f0f0;
+    color:  blue;
+}
+
+.variante li {
+    width: 75%;
+    margin: 5px 0 5px 10px;
+    padding: 5px;
+    border: 1px solid #777777;
+    background: #888888;
+}
+
+/*#Kopf {
+	background-color: #e2e7ed;
+}*/
+
+#Inhalt {
+	background-color: transparent;
+}
+
+#Fuss p {
+	font-size: 90%;
+	text-align: center;
+}
+
+#menu {
+    width: 180px;
+}
+
+#menu a {
+    background-color: #ccccff;
+    border-right: 5px solid #336699;
+    color: black;
+    display: block;
+    margin-top: 3px;
+    padding-top: 2px;
+    padding-right: 5px;
+    padding-left: 5px;
+    padding-bottom: 2px;
+    text-decoration: none;
+}
+
+#menu a: hover {
+    background-color: #ffff99;
+    border-right: 4px solid #ff0000;
+    color: #dd0000;
+}
+
+#Inhalt {
+    margin-left: 200px;
+    margin-right: 50px;
+    text-align: justify;
+}
+
+.vl {
+    border-left: 6px solid #ccccff;
+    height: 940px;
+    position: absolute;
+    left: 10%;
+    margin-left: -3px;
+    top: 0;
+    background-color: #ccccff;
+    width: 2px;
+}
+
+#hr {
+    height: 6px;
+    color: #ccccff;
+    background-color: #ccccff;
+}
